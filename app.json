@@ -25,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you send them to server.",
+          "cameraPermission": "The app accesses camera to let you send photos to server."
+        }
+      ]
+    ]
   }
 }
